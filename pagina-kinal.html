@@ -3,13 +3,15 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Aqui hago referencia al style para esta pagina de kinal de css-->
         <link rel="stylesheet" href="./assets/stylesKinal.css">
-        <title>Página de Kinal</title>
+        <title>Página Kinal</title>
     </head>
     <body>
         <header>
             <nav>
                 <ul>
+                    <!-- Creo un <ul> para poder navegar entre las 3 paginas webs-->
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="biografia.html">Biografia</a></li>
                     <li><a href="pagina-kinal.html">Página de Kinal</a></li>
@@ -17,6 +19,8 @@
                 <img src="./assets/img/logo-kinal.avif" alt="logo-kinal">
                 <br>
                 <ul>
+                    <!-- Este <ul> lo cree en base a que me parecia a mi como que se
+                        tuviera que mostar al inicio de la pagina o ya sea los más importante-->
                     <li><a href="#carreras-cursos-hover">Carreras Disponibles</a></li>
                     <li><a href="#carreras-cursos-hover">Cursos para adultos</a></li>
                     <li><a href="#antiguo-alumno">Antiguo Alumno</a></li>
@@ -24,13 +28,21 @@
                 </ul>
             </nav>
         </header>
+        <!-- Este es primer hover que aparece en la pagina, este hover lo cree con el fin
+         de que sea más interactivo lo primero que sale en la pagina-->
+        <!-- esta section lo nombre galeria-hover para darle funcionalidad de un hover como tal
+         en css despues en el archivo de style-->
         <section id="galeria-hover">
             <img src="./assets/img/para-jovenes.avif" alt="para-jovenes">
             <img src="./assets/img/para-adultos.avif" alt="para-adultos">
             <img src="./assets/img/para-adultos2.avif" alt="para-adultos2">
         </section>
         <br>
+        <!-- este section lo nombre textKinal para poder darle las caracteristicas de 
+         como queria los label´s como tal-->
         <section id="textKinal">
+            <!-- a todos los titulos y subtitulos los nombre con la etiqueta h2 para
+             poder modificar solo esa parte a como los queria-->
             <h2>TU CAMINO AL ÉXITO ESTÁ EN KINAL</h2>
             <br>
             <p class="textKinal2">
@@ -45,6 +57,8 @@
             <br>
             <br>
         </section>
+        <!-- Este es segundo hover que aparece en la pagina, este hover lo cree con el fin
+         de que sea más interactivo los grados y los cursos que salen en la pagina-->
         <section id="carreras-cursos-hover">
             <img src="./assets/img/basico.avif" alt="basico">
             <img src="./assets/img/diversificado.avif" alt="diversificado">
@@ -52,6 +66,8 @@
             <img src="./assets/img/programa-tecnico.avif" alt="programa-tecnico">
             <img src="./assets/img/tecnico-universitario.avif" alt="tecnico-universitario">
         </section>
+        <!-- este section lo cree con el fin de un carrusel y que todos los patrocinadores 
+         de kinal se puedan mostrar sin que el usuario haga una accion-->
         <section id="partners">
             <h2>NUESTROS PARTNERS</h2>
             <div id="icono">
@@ -65,6 +81,8 @@
                 <img src="./assets/img/u-istmo.jpg" alt="u-itsmo">
                 <img src="./assets/img/vmware.jpg" alt="vmware">
 
+                <!-- volvi a color las img por que quedaba un lapso que no
+                 se mostrana nada y par que no sucediero ese los coloque nuevamente-->
                 <img src="./assets/img/Autodesk.png" alt="Autodesk">
                 <img src="./assets/img/cisco.png" alt="cisco">
                 <img src="./assets/img/DynEd.jpg" alt="DynEd">
@@ -114,6 +132,8 @@
                 <label for="text">rapido, para comunicarse por los examenes de admision.</label>
             </p>
         </section>
+        <!-- creo un footer en la parte inferior de la pagina donde indica el creador 
+         de la pagina web-->
         <footer>
             <p>&copy; 2025 Cristian Luna</p>
         </footer>
